@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aseel Aljohani | Applications & Flutter Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of ASEEL ALJOHANI, Applications Developer, Flutter Developer, and Front-End Developer based in Saudi Arabia."
+    />
+    <!-- Google Fonts: DM Sans (modern, professional) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">
+          <span class="logo-mark">AA</span>
+          <span class="logo-text">Aseel&nbsp;Aljohani</span>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#training">Training</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!--
+        Each section container is populated dynamically from the /sections/*.html
+        files for easy maintenance and updates.
+      -->
+      <section id="about" class="page-section" data-section-src="sections/about.html"></section>
+      <section id="projects" class="page-section" data-section-src="sections/projects.html"></section>
+      <section id="skills" class="page-section" data-section-src="sections/skills.html"></section>
+      <section id="experience" class="page-section" data-section-src="sections/experience.html"></section>
+      <section id="education" class="page-section" data-section-src="sections/education.html"></section>
+      <section id="training" class="page-section" data-section-src="sections/training.html"></section>
+      <section id="contact" class="page-section" data-section-src="sections/contact.html"></section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> ASEEL ALJOHANI. All rights reserved.</p>
+        <p class="footer-note">
+          Applications Developer · Flutter · Front-End · Firebase · Node.js · AI
+        </p>
+      </div>
+    </footer>
+
+    <!-- Projects data and main script -->
+    <script src="js/projects-data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+  </html>
+
+
