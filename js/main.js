@@ -80,8 +80,10 @@ document.addEventListener("DOMContentLoaded", () => {
             .join("")}
         </div>
         <div class="project-media-placeholder">
-          <span class="project-media-label">Screenshot / Demo</span>
-          <span class="project-media-note">Add project image or video in <strong>assets/images</strong> or <strong>assets/videos</strong>.</span>
+         <div class="project-media-placeholder">
+  ${demoButtonHtml}
+</div>
+
           ${demoButtonHtml}
         </div>
       `;
@@ -187,3 +189,4 @@ document.addEventListener("DOMContentLoaded", () => {
     updateActiveLink();
   }
 });
+
