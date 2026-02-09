@@ -80,12 +80,8 @@ document.addEventListener("DOMContentLoaded", () => {
             .join("")}
         </div>
         <div class="project-media-placeholder">
-         <div class="project-media-placeholder">
   ${demoButtonHtml}
 </div>
-
-          ${demoButtonHtml}
-        </div>
       `;
 
       card.appendChild(inner);
@@ -189,4 +185,5 @@ document.addEventListener("DOMContentLoaded", () => {
     updateActiveLink();
   }
 });
+
 
